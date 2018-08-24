@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script src='js/fhir-client.js'></script>
+    <script>
+      FHIR.oauth2.authorize({
+        'client_id': '1a597680-0867-41fd-b3cf-39480adbad1a',
+        'scope':  'patient/Patient.read patient/Condition.read',
+        'redirect_uri': 'https://henryoh007.github.io/SMARTFHIR/app.html'
+      });
+    </script>
+    <div>Trying to launch.html ...</div>
+  </body>
+</html>
+
