@@ -29,8 +29,9 @@
         If/when this changes, or when working with other authorization servers, please update the client_id field here. -->
     <script>
       FHIR.oauth2.authorize({
-        'client_id': 'YOUR-SMART-HEALTH-IT-CLIENT-ID-HERE',
-        'scope':  'patient/Patient.read patient/Observation.read launch online_access openid profile'
+        'client_id': '1a597680-0867-41fd-b3cf-39480adbad1a',
+        'scope':  'patient/Patient.read patient/Condition.read patient/Observation.read launch online_access openid profile',
+        'redirect_uri': 'https://henryoh007.github.io/SMARTFHIR/index.html'
       });
     </script>
     <div class="spinner">
