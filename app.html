@@ -48,7 +48,7 @@
 
            $.when( 
               myApp.smart.patient.api.fetchAll({type: "Condition", query:{"category":"diagnosis"}}) 
-            ).then(function (data) { if (data) == " " else
+            ).then(function (data) 
              render(data)
             }, function(error){ console.log(error) })
     }
